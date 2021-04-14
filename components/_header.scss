@@ -2,6 +2,9 @@ header
 {
    width: 100%;
    height: 65px;
+   position: absolute;
+   z-index: 30;
+   background-color: white;
 
    .menu-mobile
    {
@@ -11,6 +14,11 @@ header
       padding: 0 25px;
       align-items: center;
       justify-content: space-between;
+      
+      img
+      {
+         width: auto;
+      }
       
       &__burger 
       {
