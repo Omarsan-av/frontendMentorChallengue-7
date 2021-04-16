@@ -19,4 +19,39 @@ html
 body
 {
    font-family: 'Public Sans', sans-serif;
+   text-align: center;
+}
+
+.text-description
+{
+   font-size: 14rem;
+   margin-top: 16rem;
+   line-height: 25rem;
+   color: #9698a6;
+   padding: 0 20rem;
+}
+
+.title
+{
+   font-size: 30rem;
+   font-weight: 300;
+   color: #2d314d;
+}
+
+.btn-invitation
+{
+   height: 42.5rem;
+   width: 158rem;
+   border-radius: 25rem;
+   margin-top: 30rem;
+   background: var(--btn-gradient);
+   border: 1rem solid #3996ad;
+
+   a 
+   {
+      color: white;
+      font-size: 14rem;
+      font-weight: 700;
+      text-decoration: none;         
+   }
 }

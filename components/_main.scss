@@ -4,10 +4,10 @@ main
    background-repeat: no-repeat;
    background-size: contain;
    background-position: 0 5px;
+   margin-bottom: 90rem;
 
    .digital-banking
    {
-      text-align: center;
       height: 383px;
 
       .phones 
@@ -21,8 +21,6 @@ main
 
    .description 
    {
-      text-align: center;
-
       .text 
       {
          &__title
@@ -30,34 +28,7 @@ main
             font-size: 39rem;
             font-weight: 300;
             color: #2d314d;
-            margin-top: 5rem;
          }
-
-         &__description
-         {
-            font-size: 15rem;
-            margin-top: 16rem;
-            line-height: 25rem;
-            color: #9698a6;
-         }
-      }
-
-      .btn-invitation
-      {
-         height: 42.5rem;
-         width: 158rem;
-         border-radius: 25rem;
-         margin-top: 30rem;
-         background: var(--btn-gradient);
-         border: 1rem solid #3996ad;
-         margin-bottom: 80rem;
-
-         a 
-         {
-            color: white;
-            font-size: 14rem;
-            font-weight: 700;
-            text-decoration: none;         }
       }
    }
 }

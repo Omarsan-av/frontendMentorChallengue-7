@@ -16,6 +16,37 @@ html {
 
 body {
   font-family: 'Public Sans', sans-serif;
+  text-align: center;
+}
+
+.text-description {
+  font-size: 14rem;
+  margin-top: 16rem;
+  line-height: 25rem;
+  color: #9698a6;
+  padding: 0 20rem;
+}
+
+.title {
+  font-size: 30rem;
+  font-weight: 300;
+  color: #2d314d;
+}
+
+.btn-invitation {
+  height: 42.5rem;
+  width: 158rem;
+  border-radius: 25rem;
+  margin-top: 30rem;
+  background: var(--btn-gradient);
+  border: 1rem solid #3996ad;
+}
+
+.btn-invitation a {
+  color: white;
+  font-size: 14rem;
+  font-weight: 700;
+  text-decoration: none;
 }
 
 header {
@@ -45,6 +76,10 @@ header .menu-mobile img {
   width: auto;
 }
 
+header .menu-mobile a {
+  width: auto;
+}
+
 header .menu-mobile__burger {
   height: 20px;
 }
@@ -54,10 +89,10 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 5px;
+  margin-bottom: 90rem;
 }
 
 main .digital-banking {
-  text-align: center;
   height: 383px;
 }
 
@@ -68,38 +103,117 @@ main .digital-banking .phones {
   left: 15px;
 }
 
-main .description {
-  text-align: center;
-}
-
 main .description .text__title {
   font-size: 39rem;
   font-weight: 300;
   color: #2d314d;
-  margin-top: 5rem;
 }
 
-main .description .text__description {
-  font-size: 15rem;
-  margin-top: 16rem;
-  line-height: 25rem;
+.about_us {
+  background-color: #f3f4f6;
+  padding: 65rem 0 60rem;
+}
+
+.about_us .image {
+  width: 70rem;
+  margin-top: 57rem;
+}
+
+.about_us__subtitle {
+  margin-top: 25px;
+  font-size: 20rem;
+  font-weight: 300;
+}
+
+.about_us__img {
+  width: 70rem;
+  margin-top: 33rem;
+}
+
+.latest_articles {
+  background-color: #f5f4f48f;
+  padding: 90rem 0 110rem;
+}
+
+.latest_articles .article.first {
+  margin-top: 26rem;
+}
+
+.latest_articles .article {
+  width: 90%;
+  margin: auto;
+  border-radius: 10rem;
+  margin-bottom: 25rem;
+  overflow: hidden;
+}
+
+.latest_articles .article__image {
+  height: 192rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.latest_articles .article__description {
+  padding: 22rem 27rem 35rem;
+  text-align: start;
+  background-color: white;
+}
+
+.latest_articles .article__description p:first-child {
+  font-size: 10rem;
+  margin-bottom: 8rem;
+}
+
+.latest_articles .article__description h3 {
+  font-size: 16rem;
+  font-weight: 500;
+  margin-bottom: 8rem;
+  color: #2d314d;
+  line-height: 20rem;
+}
+
+.latest_articles .article__description p {
+  font-size: 12.2rem;
+  line-height: 18rem;
   color: #9698a6;
 }
 
-main .description .btn-invitation {
-  height: 42.5rem;
-  width: 158rem;
-  border-radius: 25rem;
-  margin-top: 30rem;
-  background: var(--btn-gradient);
-  border: 1rem solid #3996ad;
-  margin-bottom: 80rem;
+footer {
+  background-color: #2d314d;
+  padding: 40rem 0;
 }
 
-main .description .btn-invitation a {
-  color: white;
-  font-size: 14rem;
-  font-weight: 700;
+footer img {
+  width: 40%;
+  margin-bottom: 25rem;
+}
+
+footer .follower {
+  margin-bottom: 25rem;
+}
+
+footer .follower img {
+  width: 24rem;
+  margin: 7rem;
+}
+
+footer .follower img:nth-child(3) {
+  width: 25rem;
+}
+
+footer .menu-footer li {
+  margin-bottom: 15rem;
+}
+
+footer .menu-footer li a {
   text-decoration: none;
+  font-size: 14rem;
+  color: #ccc6c6;
+}
+
+footer p {
+  font-size: 14rem;
+  color: #9698a6;
+  margin-top: 25rem;
 }
 /*# sourceMappingURL=styles.css.map */
