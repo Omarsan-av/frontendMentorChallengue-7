@@ -39,7 +39,8 @@ burgerButton.addEventListener("click", () =>
    if (updateClick === 0)
    {
       burgerButton.src = "https://omarsav.com/pictures/frontmentor/icon-close.svg";
-      menu.style.boxShadow = '0 20px 100px'
+      menu.style.boxShadow = '0 20px 100px';
+      document.body.style.overflow = 'hidden';
       click = 1;
       updateClick = click; 
    }
@@ -50,6 +51,7 @@ burgerButton.addEventListener("click", () =>
       menu.style.boxShadow = 'none'
       click =  0;
       updateClick = click; 
+      document.body.style.overflow = 'visible';
    }
 })
 
