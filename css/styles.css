@@ -1,5 +1,7 @@
 :root {
   --btn-gradient: linear-gradient(to right,#31d35c 20%, #2bb7da);
+  --blue-dark: #2d314d;
+  --description: #9698a6;
 }
 
 * {
@@ -23,14 +25,14 @@ body {
   font-size: 14rem;
   margin-top: 16rem;
   line-height: 25rem;
-  color: #9698a6;
+  color: var(--description);
   padding: 0 20rem;
 }
 
 .title {
   font-size: 30rem;
   font-weight: 300;
-  color: #2d314d;
+  color: var(--blue-dark);
 }
 
 .btn-invitation {
@@ -84,6 +86,51 @@ header .menu-mobile__burger {
   height: 20px;
 }
 
+header .menu-mobile .menu {
+  position: fixed;
+  z-index: 10;
+  background: white;
+  left: -90vw;
+  top: 80px;
+  width: 90vw;
+  height: 42vh;
+  border-radius: 10px;
+  -webkit-transition: 1.2s;
+  transition: 1.2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header .menu-mobile .menu li {
+  padding: 12px 0;
+}
+
+header .menu-mobile .menu li a {
+  font-size: 17.8rem;
+  text-decoration: none;
+  color: var(--blue-dark);
+}
+
+header .menu-mobile .menu.is-active {
+  left: 5vw;
+}
+
+header .menu-mobile button {
+  display: none;
+}
+
 main {
   background-image: url("../images/bg-intro-mobile.svg");
   background-repeat: no-repeat;
@@ -106,7 +153,7 @@ main .digital-banking .phones {
 main .description .text__title {
   font-size: 39rem;
   font-weight: 300;
-  color: #2d314d;
+  color: var(--blue-dark);
 }
 
 .about_us {
@@ -164,22 +211,27 @@ main .description .text__title {
   margin-bottom: 8rem;
 }
 
-.latest_articles .article__description h3 {
+.latest_articles .article__description a {
   font-size: 16rem;
   font-weight: 500;
-  margin-bottom: 8rem;
-  color: #2d314d;
+  color: var(--blue-dark);
   line-height: 20rem;
+  text-decoration: none;
+}
+
+.latest_articles .article__description a:hover {
+  color: #00d498;
 }
 
 .latest_articles .article__description p {
   font-size: 12.2rem;
   line-height: 18rem;
-  color: #9698a6;
+  color: var(--description);
+  margin-top: 8rem;
 }
 
 footer {
-  background-color: #2d314d;
+  background-color: var(--blue-dark);
   padding: 40rem 0;
 }
 
@@ -213,7 +265,7 @@ footer .menu-footer li a {
 
 footer p {
   font-size: 14rem;
-  color: #9698a6;
+  color: var(--description);
   margin-top: 25rem;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,8 @@
 :root 
 {
    --btn-gradient: linear-gradient(to right,#31d35c 20%, #2bb7da);
+   --blue-dark: #2d314d;
+   --description: #9698a6;
 }
 
 *
@@ -27,7 +29,7 @@ body
    font-size: 14rem;
    margin-top: 16rem;
    line-height: 25rem;
-   color: #9698a6;
+   color: var(--description);
    padding: 0 20rem;
 }
 
@@ -35,7 +37,7 @@ body
 {
    font-size: 30rem;
    font-weight: 300;
-   color: #2d314d;
+   color: var(--blue-dark);
 }
 
 .btn-invitation

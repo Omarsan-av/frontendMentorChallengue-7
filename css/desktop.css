@@ -1,0 +1,261 @@
+body {
+  overflow-x: hidden;
+}
+
+header {
+  height: 70px;
+}
+
+header .menu-mobile {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .menu-mobile .menu {
+  position: static;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: auto;
+  height: inherit;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+header .menu-mobile .menu li {
+  padding: 0 10px;
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menu-mobile .menu li a {
+  font-size: 14rem;
+  color: var(--description);
+}
+
+header .menu-mobile .menu li a:hover {
+  color: black;
+}
+
+header .menu-mobile .menu li:hover {
+  border-bottom: 3px solid var(--btn-gradient);
+}
+
+header .menu-mobile button {
+  display: block;
+  margin-top: 0;
+}
+
+header .menu-mobile #burger-menu {
+  display: none;
+}
+
+main {
+  background-image: url(../images/bg-intro-desktop.svg);
+  background-size: cover;
+  background-position: 42.5vw -35vh;
+  padding-top: 70px;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-bottom: 0;
+}
+
+main .digital-banking {
+  height: inherit;
+}
+
+main .digital-banking .phones {
+  position: relative;
+  top: -16%;
+  left: 1%;
+  width: 119%;
+}
+
+main .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main .description .text {
+  text-align: start;
+  width: 400px;
+}
+
+main .description .text__title {
+  font-size: 52rem;
+}
+
+.about_us {
+  text-align: start;
+  padding-bottom: 90rem;
+  padding-top: 110rem;
+}
+
+.about_us .image {
+  margin-top: 33rem;
+}
+
+.about_us .title {
+  font-size: 38rem;
+}
+
+.about_us .title br {
+  display: none;
+}
+
+.about_us .subtitle {
+  font-size: 23rem;
+}
+
+.latest_articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 40rem;
+}
+
+.latest_articles h2 {
+  width: 100%;
+  margin-bottom: 45rem;
+  font-size: 38rem;
+  text-align: start;
+}
+
+.latest_articles .article {
+  width: 240rem;
+  height: 400px;
+  border-radius: 5rem;
+}
+
+.latest_articles .article.first {
+  margin-top: 0;
+}
+
+.text-description {
+  margin-top: 20rem;
+  font-size: 16rem;
+  padding: 0;
+}
+
+.text-description.desktop {
+  width: 600px;
+}
+
+.points {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.points .item {
+  padding-top: 35px;
+  padding-right: 25px;
+  width: 260px;
+}
+
+.points .item:last-child {
+  padding-right: 0;
+}
+
+.description.container {
+  padding-left: 150px;
+}
+
+.container {
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.item .text-description {
+  font-size: 14rem;
+}
+
+.btn-invitation:hover {
+  opacity: 0.75;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  height: 180px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .redes-sociales {
+  text-align: start;
+}
+
+footer .redes-sociales img {
+  width: 30%;
+}
+
+footer .redes-sociales .follower {
+  margin-bottom: 0;
+}
+
+footer .redes-sociales .follower img {
+  width: 20rem;
+}
+
+footer .menu-footer {
+  height: 78px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .menu-footer li {
+  width: auto;
+  text-align: start;
+  list-style: none;
+  margin-left: 50rem;
+}
+
+footer .menu-footer li a:hover {
+  color: #00d498;
+}
+
+footer .menu-footer li:nth-child(3), footer .menu-footer li:nth-child(6) {
+  margin-bottom: 0;
+}
+
+footer .btn-copyright {
+  text-align: end;
+}
+
+footer .btn-copyright .btn-invitation {
+  margin-top: 0;
+}
+/*# sourceMappingURL=desktop.css.map */
